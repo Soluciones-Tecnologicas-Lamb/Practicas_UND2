@@ -1,4 +1,4 @@
-﻿namespace Ejercicio_1
+﻿namespace Ejercicio_2
 {
     partial class Form1
     {
@@ -28,34 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            labeltext = new Label();
+            btnClick = new Button();
             SuspendLayout();
             // 
-            // label1
+            // labeltext
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Harlow Solid Italic", 15.75F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.Location = new Point(1, 45);
-            label1.Name = "label1";
-            label1.Size = new Size(605, 26);
-            label1.TabIndex = 0;
-            label1.Text = "¡Bienvenido al formulario de Candido Manuel Cordero y LR-14-10462!\r\n";
-            label1.Click += label1_Click;
+            labeltext.AutoSize = true;
+            labeltext.Font = new Font("Showcard Gothic", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labeltext.ForeColor = Color.FromArgb(192, 0, 0);
+            labeltext.Location = new Point(80, 73);
+            labeltext.Name = "labeltext";
+            labeltext.Size = new Size(657, 33);
+            labeltext.TabIndex = 0;
+            labeltext.Text = "Este texto cambiara si presionas el boton";
+            // 
+            // btnClick
+            // 
+            btnClick.Location = new Point(336, 23);
+            btnClick.Name = "btnClick";
+            btnClick.Size = new Size(123, 23);
+            btnClick.TabIndex = 1;
+            btnClick.Text = "Yo soy el Boton";
+            btnClick.UseVisualStyleBackColor = true;
+            btnClick.Click += btnClick_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(618, 154);
-            Controls.Add(label1);
+            ClientSize = new Size(797, 154);
+            Controls.Add(btnClick);
+            Controls.Add(labeltext);
             Name = "Form1";
-            Text = "Ejercicio#1";
+            Text = "Ejercicio#2";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        private Label labeltext;
+        private Button btnClick;
     }
 }

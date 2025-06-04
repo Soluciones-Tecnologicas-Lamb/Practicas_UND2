@@ -1,4 +1,4 @@
-namespace Ejercicio_1
+namespace Ejercicio_2
 {
     public partial class Form1 : Form
     {
@@ -7,9 +7,9 @@ namespace Ejercicio_1
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnClick_Click(object sender, EventArgs e)
         {
-
+            labeltext.Text = "Texto ha Cambiado";
         }
     }
 }
