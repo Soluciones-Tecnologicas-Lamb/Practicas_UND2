@@ -30,6 +30,7 @@
         {
             labeltext = new Label();
             btnClick = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // labeltext
@@ -53,11 +54,21 @@
             btnClick.UseVisualStyleBackColor = true;
             btnClick.Click += btnClick_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(198, 130);
+            label1.Name = "label1";
+            label1.Size = new Size(377, 15);
+            label1.TabIndex = 2;
+            label1.Text = "© 2025 Soluciones Tecnológicas Lamb. Todos los derechos reservados.";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(797, 154);
+            Controls.Add(label1);
             Controls.Add(btnClick);
             Controls.Add(labeltext);
             Name = "Form1";
@@ -70,5 +81,6 @@
 
         private Label labeltext;
         private Button btnClick;
+        private Label label1;
     }
 }

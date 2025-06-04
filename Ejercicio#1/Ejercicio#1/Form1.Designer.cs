@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -42,11 +43,21 @@
             label1.Text = "¡Bienvenido al formulario de Candido Manuel Cordero y LR-14-10462!\r\n";
             label1.Click += label1_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(118, 130);
+            label2.Name = "label2";
+            label2.Size = new Size(377, 15);
+            label2.TabIndex = 1;
+            label2.Text = "© 2025 Soluciones Tecnológicas Lamb. Todos los derechos reservados.";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(618, 154);
+            Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
             Text = "Ejercicio#1";
@@ -57,5 +68,6 @@
         #endregion
 
         private Label label1;
+        private Label label2;
     }
 }
