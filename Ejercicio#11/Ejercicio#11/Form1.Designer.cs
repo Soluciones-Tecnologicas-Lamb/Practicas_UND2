@@ -67,11 +67,11 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(175, 147);
+            label4.Location = new Point(169, 146);
             label4.Name = "label4";
-            label4.Size = new Size(38, 15);
+            label4.Size = new Size(22, 15);
             label4.TabIndex = 3;
-            label4.Text = "label4";
+            label4.Text = "***";
             label4.Click += label4_Click;
             // 
             // dateTimePicker1

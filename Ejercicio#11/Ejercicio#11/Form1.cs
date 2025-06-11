@@ -21,7 +21,8 @@ namespace Ejercicio_11
         
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            label4.Text = dateTimePicker1.Value.ToString("dd/MM/yyyy");
         }
+    
     }
 }
