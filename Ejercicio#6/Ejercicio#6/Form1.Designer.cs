@@ -56,7 +56,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(214, 401);
+            label2.Location = new Point(204, 180);
             label2.Name = "label2";
             label2.Size = new Size(377, 15);
             label2.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(738, 215);
             Controls.Add(label2);
             Controls.Add(comboBox1);
             Controls.Add(label1);

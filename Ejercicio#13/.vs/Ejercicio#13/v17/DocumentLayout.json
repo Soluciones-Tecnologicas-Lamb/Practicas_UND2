@@ -1,12 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\GitHub\\Practicas_UND2\\Ejercicio#13\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F724CB2-2794-4427-84B5-C7C9FBC4DFD7}|Ejercicio#13\\Ejercicio#13.csproj|c:\\users\\pc\\documents\\github\\practicas_und2\\ejercicio#13\\ejercicio#13\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F724CB2-2794-4427-84B5-C7C9FBC4DFD7}|Ejercicio#13\\Ejercicio#13.csproj|solutionrelative:ejercicio#13\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Practicas_UND2\\Ejercicio#13\\Ejercicio#13\\Form1.cs",
+              "RelativeDocumentMoniker": "Ejercicio#13\\Form1.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Practicas_UND2\\Ejercicio#13\\Ejercicio#13\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Ejercicio#13\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T01:03:48.122Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
